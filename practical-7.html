@@ -5,112 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practice web page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
-    <!-- owl -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"></link>
-    <!-- owl -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="style.css" />
 
-    <style>
-        .stretch-card>.card {
-            width: 100%;
-            min-width: 100%
-        }
-        
-        .flex {
-            -webkit-box-flex: 1;
-            -ms-flex: 1 1 auto;
-            flex: 1 1 auto
-        }
-        
-        @media (max-width:991.98px) {
-            .padding {
-                padding: 1.5rem
-            }
-        }
-        
-        @media (max-width:767.98px) {
-            .padding {
-                padding: 1rem
-            }
-        }
-        
-        .padding {
-            padding: 3rem
-        }
-        
-        .owl-carousel .item {
-            margin: 3px
-        }
-        
-        .owl-carousel .item img {
-            display: block;
-            width: 100%;
-            height: auto
-        }
-        
-        .owl-carousel .item {
-            margin: 3px
-        }
-        
-        .owl-carousel {
-            margin-bottom: 15px
-        }
-    </style>
-    <script>
-        $(document).ready(function() {
-
-            $(".owl-carousel").owlCarousel({
-
-                autoPlay: 3000,
-                items: 4,
-                itemsDesktop: [1199, 3],
-                itemsDesktopSmall: [979, 3],
-                center: true,
-                nav: true,
-                loop: true,
-                responsive: {
-                    600: {
-                        items: 4
-                    }
-                }
-            });
-
-        });
-    </script>
 </head>
 
 <body>
 
     <div class="content-wrapper">
-        <!-- <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-            <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                <span class="fs-4"><img src="https://sandbox.elemisthemes.com/assets/img/logo-dark.png"></span>
-            </a>
-
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a href="#" class="nav-link btn btn-primary dropdown-toggle" aria-current="page">Demos</a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link btn btn-primary dropdown-toggle">Pages</a></li>
-                <li class="nav-item"><a href="#" class="nav-link btn btn-primary dropdown-toggle">Projects</a></li>
-                <li class="nav-item"><a href="#" class="nav-link btn btn-primary dropdown-toggle">Blog</a></li>
-                <li class="nav-item"><a href="#" class="nav-link btn btn-primary dropdown-toggle">Blocks</a></li>
-                <li class="nav-item"><a href="#" class="nav-link btn btn-primary dropdown-toggle">Documentation</a></li>
-                <span><a class="btn btn-lg btn-primary rounded-pill me-2">Contact</a></span>
-            </ul>
-
-        </header> -->
 
         <div class="wrapper bg-white">
             <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
@@ -453,36 +362,143 @@
                     </div>
                     <!-- /column -->
                 </div>
-                <div class="page-content page-container" id="page-content">
-                    <div class="padding">
-                        <div class="row container-fluid">
-                            <div class="col-lg-12 grid-margin stretch-card">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Basic carousel</h4>
-                                        <div class="owl-carousel">
-                                            <div class="item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204140/banner_12.jpg" alt="image" /> </div>
-                                            <div class="item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204172/banner_2.jpg" alt="image" /> </div>
-                                            <div class="item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204663/park-4174278_640.jpg" alt="image" /> </div>
-                                            <div class="item"> <img src="http://www.urbanui.com/fily/template/images/carousel/banner_2.jpg" alt="image" /> </div>
-                                            <div class="item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204172/banner_2.jpg" alt="image" /> </div>
-                                            <div class="item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204663/park-4174278_640.jpg" alt="image" /> </div>
-                                            <div class="item"> <img src="http://www.urbanui.com/fily/template/images/carousel/banner_2.jpg" alt="image" /> </div>
-                                            <div class="item"> <img src="http://www.urbanui.com/fily/template/images/carousel/banner_2.jpg" alt="image" /> </div>
-                                            <div class="item"> <img src="http://www.urbanui.com/fily/template/images/carousel/banner_2.jpg" alt="image" /> </div>
-                                            <div class="item"> <img src="http://www.urbanui.com/fily/template/images/carousel/banner_2.jpg" alt="image" /> </div>
-                                            <div class="item"> <img src="http://www.urbanui.com/fily/template/images/carousel/banner_2.jpg" alt="image" /> </div>
+                <div class="carousel owl-carousel grid-view nav-bottom nav-dark overflow-visible owl-loaded owl-drag" data-margin="30" data-dots="false" data-nav="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive="{&quot;0&quot;:{&quot;items&quot;: &quot;1&quot;}, &quot;768&quot;:{&quot;items&quot;: &quot;2&quot;}, &quot;992&quot;:{&quot;items&quot;: &quot;2&quot;}, &quot;1200&quot;:{&quot;items&quot;: &quot;2&quot;}}">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2880px;">
+                            <div class="owl-item active" style="width: 450px; margin-right: 30px;">
+                                <div class="item">
+                                    <figure class="rounded mb-7">
+                                        <a href="#"><img src="https://sandbox.elemisthemes.com/assets/img/photos/sp1.jpg" srcset="./assets/img/photos/sp1@2x.jpg 2x" alt=""></a>
+                                    </figure>
+                                    <div class="project-details d-flex justify-content-center flex-column">
+                                        <div class="post-header">
+                                            <h2 class="post-title h3"><a href="#" class="link-dark">Cras Fermentum Sem</a></h2>
+                                            <div class="post-category text-ash">Mobile Design</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 450px; margin-right: 30px;">
+                                <div class="item">
+                                    <figure class="rounded mb-7">
+                                        <a href="#"><img src="https://sandbox.elemisthemes.com/assets/img/photos/sp2.jpg" srcset="./assets/img/photos/sp2@2x.jpg 2x" alt=""></a>
+                                    </figure>
+                                    <div class="project-details d-flex justify-content-center flex-column">
+                                        <div class="post-header">
+                                            <h2 class="post-title h3"><a href="#" class="link-dark">Venenatis Euismod Vehicula</a></h2>
+                                            <div class="post-category text-ash">Web Design</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 450px; margin-right: 30px;">
+                                <div class="item">
+                                    <figure class="rounded mb-7">
+                                        <a href="#"><img src="https://sandbox.elemisthemes.com/assets/img/photos/sp3.jpg" srcset="./assets/img/photos/sp3@2x.jpg 2x" alt=""></a>
+                                    </figure>
+                                    <div class="project-details d-flex justify-content-center flex-column">
+                                        <div class="post-header">
+                                            <h2 class="post-title h3"><a href="#" class="link-dark">Tortor Tellus Cursus</a></h2>
+                                            <div class="post-category text-ash">Stationary</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 450px; margin-right: 30px;">
+                                <div class="item">
+                                    <figure class="rounded mb-7">
+                                        <a href="#"><img src="https://sandbox.elemisthemes.com/assets/img/photos/sp4.jpg" srcset="./assets/img/photos/sp4@2x.jpg 2x" alt=""></a>
+                                    </figure>
+                                    <div class="project-details d-flex justify-content-center flex-column">
+                                        <div class="post-header">
+                                            <h2 class="post-title h3"><a href="#" class="link-dark">Ridiculus Sem Parturient</a></h2>
+                                            <div class="post-category text-ash">Web Application</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 450px; margin-right: 30px;">
+                                <div class="item">
+                                    <figure class="rounded mb-7">
+                                        <a href="#"><img src="https://sandbox.elemisthemes.com/assets/img/photos/sp5.jpg" srcset="./assets/img/photos/sp5@2x.jpg 2x" alt=""></a>
+                                    </figure>
+                                    <div class="project-details d-flex justify-content-center flex-column">
+                                        <div class="post-header">
+                                            <h2 class="post-title h3"><a href="#" class="link-dark">Cursus Sollicitudin Adipiscing</a></h2>
+                                            <div class="post-category text-ash">Web Design</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled "><i class="uil-arrow-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="uil-arrow-right"></i></button></div>
+                    <div class="owl-dots disabled"></div>
                 </div>
             </div>
-
         </section>
+        <footer class="bg-navy text-inverse">
+            <div class="container pt-12 pt-lg-6 pb-13 pb-md-15">
+                <div class="d-lg-flex flex-row align-items-lg-center">
+                    <h3 class="display-4 mt-4 mb-lg-0 pe-xxl-20 text-black"><b>Join our community by using our services and grow your business.</b></h3>
+                    <a href="#" class="btn btn-primary rounded-pill mb-0 text-nowrap">Try It For Free</a>
+                </div>
+                <!--/div -->
+                <hr class="mt-11 mb-12" />
+                <div class="row gy-6 gy-lg-0">
+                    <div class="col-md-4 col-lg-3">
+                        <div class="widget">
+                            <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />
+                            <p class="mb-4">© 2021 Sandbox. <br class="d-none d-lg-block" />All rights reserved.</p>
+                            <nav class="nav social social-white">
+                            </nav>
+                            <!-- /.social -->
+                        </div>
+                        <!-- /.widget -->
+                    </div>
+                    <!-- /column -->
+                    <div class="col-md-4 col-lg-3">
+                        <div class="widget">
+                            <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+                            <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
+                            <a href="mailto:#">info@email.com</a><br /> +00 (123) 456 78 90
+                        </div>
+                        <!-- /.widget -->
+                    </div>
+                    <!-- /column -->
+                    <div class="col-md-4 col-lg-3">
+                        <div class="widget">
+                            <h4 class="widget-title text-white mb-3">Learn More</h4>
+                            <ul class="list-unstyled  mb-0">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.widget -->
+                    </div>
+                    <!-- /column -->
+                    <div class="col-md-12 col-lg-3">
+                        <div class="widget">
+                            <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
+                            <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
+                            <!--End mc_embed_signup-->
+                            <!-- /.newsletter-wrapper -->
+                        </div>
+                        <!-- /.widget -->
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!-- /.container -->
+        </footer>
+        <div class="progress-wrap">
 
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
 </body>
 
 </html>
